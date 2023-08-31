@@ -1,0 +1,58 @@
+.custom-modal {
+    padding: 25px;
+
+    @media screen and (max-width: 768px) {
+        padding: 10px;
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+
+        p {
+            font-family: 'Bold', 'Arial', sans-serif;
+            word-break: break-all;
+
+            &:first-child {
+                margin-right: 10px;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+
+    &__content {
+        padding-top: 40px;
+    }
+
+    &__content-item {
+        margin-bottom: 30px;
+
+        label {
+            font-family: 'Bold', 'Arial', sans-serif;
+        }
+
+        p {
+            color: #3e485b;
+            word-break: break-all;
+        }
+
+        &--green {
+            p {
+                color: #27ae60;
+            }
+        }
+    }
+
+    &__actions {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-top: 30px;
+    }
+}

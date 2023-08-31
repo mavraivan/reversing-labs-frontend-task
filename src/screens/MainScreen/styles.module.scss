@@ -1,0 +1,30 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+
+    &__wrapper {
+        max-width: 600px;
+        position: relative;
+        background-color: white;
+        padding: 80px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        border-radius: 20px;
+
+        @media screen and (max-width: 768px) {
+            padding: 40px 25px;
+        }
+    }
+
+    &__form {
+        margin: 40px 0;
+    }
+
+    &__actions {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}

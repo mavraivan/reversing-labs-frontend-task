@@ -1,0 +1,17 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: #2a6ac8;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Bold', 'Arial', sans-serif;
+    font-size: 12px;
+    color: white;
+    min-width: 150px;
+    border: 0;
+    box-shadow: none;
+    outline: none;
+}

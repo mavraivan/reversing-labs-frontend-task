@@ -1,0 +1,23 @@
+.progress-bar {
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid #2a6ac8;
+    overflow: hidden;
+    position: relative;
+
+    span {
+        height: 100%;
+        display: block;
+        width: 0;
+        color: white;
+        font-size: 12px;
+        font-family: 'Bold', 'Arial', sans-serif;
+        line-height: 30px;
+        position: absolute;
+        text-align: end;
+        padding-right: 10px;
+        background-color: #2a6ac8;
+        transition-duration: 200ms;
+    }
+}
